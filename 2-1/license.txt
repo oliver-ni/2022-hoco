@@ -1,0 +1,11 @@
+Model Information:
+* title:	Day 13: Pillow Fort
+* source:	https://sketchfab.com/3d-models/day-13-pillow-fort-91d47786f43f45b786ca682b22c34a4e
+* author:	Katerina Novakova (https://sketchfab.com/KaterinaNovakova)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Day 13: Pillow Fort" (https://sketchfab.com/3d-models/day-13-pillow-fort-91d47786f43f45b786ca682b22c34a4e) by Katerina Novakova (https://sketchfab.com/KaterinaNovakova) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

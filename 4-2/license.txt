@@ -1,0 +1,11 @@
+Model Information:
+* title:	Harry Potter Suitcase
+* source:	https://sketchfab.com/3d-models/harry-potter-suitcase-c00b0a1534f2469fa61e1e29938408fc
+* author:	Alizée BOURBON (https://sketchfab.com/alibabalaboss)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Harry Potter Suitcase" (https://sketchfab.com/3d-models/harry-potter-suitcase-c00b0a1534f2469fa61e1e29938408fc) by Alizée BOURBON (https://sketchfab.com/alibabalaboss) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
