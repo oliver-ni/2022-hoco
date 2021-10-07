@@ -3,6 +3,7 @@
   <head>
     <script src="https://aframe.io/releases/1.0.0/aframe.min.js"></script>
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
     <script src="https://unpkg.com/aframe-text-geometry-component@0.5.1/dist/aframe-text-geometry-component.min.js"></script>
   </head>
 
@@ -29,124 +30,154 @@
         <a-asset-item id="4-4" src="/4-4/scene.gltf"></a-asset-item>
       </a-assets>
 
-      <a-marker type="barcode" value="1">
+      <a-marker type="barcode" size="0.2" value="1">
+        <!-- The Edge of Reality -->
+
+        <!-- Globe -->
         <a-entity
           gltf-model="#1-1"
           scale="0.02 0.02 0.02"
-          position="0 0 1"
-          rotation="290 0 0"
+          position="0 1 0"
+          rotation="0 0 0"
+          animation="property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear"
         ></a-entity>
 
         <a-entity
           gltf-model="#1-2"
           scale="0.02 0.02 0.02"
-          position="0.5 2 0"
-          rotation="270 0 0"
+          position="0.5 2 1"
+          rotation="0 0 0"
         ></a-entity>
 
         <a-entity
           gltf-model="#1-3"
           scale="0.003 0.003 0.003"
-          position="-0.5 2 0"
-          rotation="270 0 0"
+          position="-0.5 2 1"
+          rotation="0 0 0"
+          animation-mixer
         ></a-entity>
 
         <a-entity
           gltf-model="#1-4"
           scale="1 1 1"
-          position="0 0 0"
+          position="0 2 0"
           rotation="0 0 0"
+          animation="property: rotation; to: 0 -360 0; loop: true; dur: 40000; easing: linear"
         ></a-entity>
       </a-marker>
 
-      <a-marker type="barcode" size="0.5" value="2">
+      <a-marker type="barcode" size="0.2" value="2">
         <!-- Childhood -->
 
+        <!-- Fort -->
         <a-entity
           gltf-model="#2-1"
           scale="0.5 0.5 0.5"
           position="0 0 0"
-          rotation="270 0 0"
+          rotation="0 0 0"
         ></a-entity>
 
+        <!-- Train -->
         <a-entity
           gltf-model="#2-2"
           scale="0.05 0.05 0.05"
-          position="1.5 -1 0"
-          rotation="90 180 0"
+          position="1.5 0 -1"
+          rotation="0 180 0"
         ></a-entity>
 
+        <!-- Milkshake -->
         <a-entity
           gltf-model="#2-3"
           scale="1.5 1.5 1.5"
-          position="-0.5 1 0"
-          rotation="270 0 0"
+          position="-1.5 0 0"
+          rotation="0 0 0"
         ></a-entity>
 
+        <!-- Cute isometric -->
         <a-entity
           gltf-model="#2-4"
-          scale="0.03 0.03 0.03"
-          position="-0.5 -5 0"
-          rotation="270 0 0"
+          scale="0.02 0.02 0.02"
+          position="-1 -0.5 -3"
+          rotation="-5 0 0"
         ></a-entity>
       </a-marker>
 
-      <a-marker type="barcode" size="0.5" value="3">
+      <a-marker type="barcode" size="0.2" value="3">
         <!-- Growing Up -->
 
         <a-entity
           gltf-model="#3-1"
-          scale="0.3 -0.3 0.3"
-          position="0 -2 2"
-          rotation="0 90 90"
+          scale="0.2 0.2 0.2"
+          position="0 0 -2"
+          rotation="0 -90 5"
         ></a-entity>
 
         <a-entity
           gltf-model="#3-2"
           scale="0.1 0.1 0.1"
-          position="-0.8 -3 2"
-          rotation="270 0 0"
+          position="-0.8 0 -2"
+          rotation="0 0 0"
         ></a-entity>
 
         <a-entity
           gltf-model="#3-3"
           scale="20 20 20"
-          position="0 -3 2"
-          rotation="270 0 0"
+          position="0 0 -2"
+          rotation="0 0 0"
         ></a-entity>
       </a-marker>
 
       <a-marker type="barcode" size="0.5" value="4">
         <!-- Worlds -->
 
+        <!-- Viking Cube, left -->
         <a-entity
           gltf-model="#4-1"
-          scale="0.13 0.13 0.13"
-          position="-1 -5 0"
-          rotation="270 0 0"
+          scale="0.1 0.1 0.1"
+          position="-1.2 0 -4"
+          rotation="-10 0 0"
         ></a-entity>
 
+        <!-- Viking Cube, right -->
         <a-entity
+          gltf-model="#4-1"
+          scale="0.1 0.1 0.1"
+          position="1.2 0 -4"
+          rotation="0 -90 10"
+          light="color: #FFF; intensity: 1.5"
+        ></a-entity>
+
+        <!-- Suitcase -->
+        <!-- <a-entity
           gltf-model="#4-2"
           scale="0.015 0.015 0.015"
           position="1 0 0"
-          rotation="270 0 0"
-        ></a-entity>
+          rotation="0 0 0"
+        ></a-entity> -->
 
+        <!-- Frog Thing -->
         <a-entity
           gltf-model="#4-3"
-          scale="0.007 0.007 0.007"
-          position="-3 -2 0"
-          rotation="270 0 0"
+          scale="0.004 0.004 0.004"
+          position="-1.5 0 0"
+          rotation="0 0 0"
         ></a-entity>
 
+        <!-- Appa -->
         <a-entity
           gltf-model="#4-4"
           scale="0.5 0.5 0.5"
-          position="3 -3 0"
-          rotation="270 0 0"
+          position="1 0 -2"
+          rotation="0 0 0"
         ></a-entity>
       </a-marker>
+
+      <!-- Default lighting injected by A-Frame. -->
+      <a-entity light="type: ambient; color: #BBB"></a-entity>
+      <a-entity
+        light="type: directional; color: #FFF; intensity: 0.6"
+        position="-0.5 1 1"
+      ></a-entity>
 
       <a-entity camera></a-entity>
     </a-scene>
